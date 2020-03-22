@@ -9,6 +9,7 @@ import java.lang.annotation.Target;
 @Target(ElementType.METHOD)
 
 public @interface Test {
-    StatisticsTestLevel statisticsTestLevel() default StatisticsTestLevel.All;
+    StatisticsTestLevel statisticsTestLevel() default StatisticsTestLevel.ONLY_COUNTS;
+
     PrintTestResult printTestResult() default PrintTestResult.AFTER_METHOD;
 }

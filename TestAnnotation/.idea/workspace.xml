@@ -1,7 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a54be582-10ba-41c6-b58b-3c7db3cf807c" name="Default Changelist" comment="" />
+    <list default="true" id="a54be582-10ba-41c6-b58b-3c7db3cf807c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/tests/subtest/SubTest2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/util/CustomRunTestPrepareData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/util/asserts/AssertsCounter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tests/Test1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tests/Test1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tests/Test2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tests/subtest/SubTest1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tests/subtest/SubTest1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/util/CustomTestsRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/util/CustomTestsRunner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/util/MapClassMethodsWithAnnotations.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/util/MapClassMethodsWithAnnotations.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/util/annotation/PrintTestResult.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/util/annotation/PrintTestResult.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/util/annotation/ShowStats.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/util/annotation/StatisticsTestLevel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/util/annotation/StatisticsTestLevel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/util/annotation/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/util/annotation/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/util/asserts/Assert.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/util/asserts/Assert.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/util/asserts/AssertCounter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/util/asserts/DefaultAssertCounter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/util/asserts/TestsAssertCounter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/util/reflection/ReflectionHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/util/reflection/ReflectionHelper.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -12,8 +30,8 @@
       <list>
         <option value="AnnotationType" />
         <option value="Interface" />
-        <option value="Class" />
         <option value="Enum" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -120,10 +138,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="72" y="182" key="#Project_Structure/0.0.1920.1040@0.0.1920.1040" timestamp="1584512022300" />
-    <state x="765" y="229" key="#com.intellij.ide.util.MemberChooser" timestamp="1584635722986">
+    <state x="765" y="229" key="#com.intellij.ide.util.MemberChooser" timestamp="1584876173698">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="765" y="229" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1584635722986" />
+    <state x="765" y="229" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1584876173698" />
     <state x="1170" y="299" key="#com.intellij.ide.util.PackageChooserDialog" timestamp="1584635224914">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -136,6 +154,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="276" y="383" width="408" height="288" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1920.1040@0.0.1920.1040" timestamp="1584635824826" />
+    <state x="238" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1584886951050">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="238" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1584886951050" />
     <state x="210" y="270" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1584651539558">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -152,38 +174,38 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="593" y="116" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1584660958430" />
-    <state width="1877" height="353" key="GridCell.Tab.0.bottom" timestamp="1584660988664">
+    <state width="916" height="435" key="GridCell.Tab.0.bottom" timestamp="1584886971234">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="353" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1584660988664" />
-    <state width="1877" height="353" key="GridCell.Tab.0.center" timestamp="1584660988664">
+    <state width="916" height="435" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1584886971234" />
+    <state width="916" height="435" key="GridCell.Tab.0.center" timestamp="1584886971234">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="353" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1584660988664" />
-    <state width="1877" height="353" key="GridCell.Tab.0.left" timestamp="1584660988663">
+    <state width="916" height="435" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1584886971234" />
+    <state width="916" height="435" key="GridCell.Tab.0.left" timestamp="1584886971234">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="353" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1584660988663" />
-    <state width="1877" height="353" key="GridCell.Tab.0.right" timestamp="1584660988664">
+    <state width="916" height="435" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1584886971234" />
+    <state width="916" height="435" key="GridCell.Tab.0.right" timestamp="1584886971234">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="353" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1584660988664" />
-    <state width="1877" height="353" key="GridCell.Tab.1.bottom" timestamp="1584660988664">
+    <state width="916" height="435" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1584886971234" />
+    <state width="1877" height="353" key="GridCell.Tab.1.bottom" timestamp="1584883441179">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="353" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1584660988664" />
-    <state width="1877" height="353" key="GridCell.Tab.1.center" timestamp="1584660988664">
+    <state width="1877" height="353" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1584883441179" />
+    <state width="1877" height="353" key="GridCell.Tab.1.center" timestamp="1584883441179">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="353" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1584660988664" />
-    <state width="1877" height="353" key="GridCell.Tab.1.left" timestamp="1584660988664">
+    <state width="1877" height="353" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1584883441179" />
+    <state width="1877" height="353" key="GridCell.Tab.1.left" timestamp="1584883441179">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="353" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1584660988664" />
-    <state width="1877" height="353" key="GridCell.Tab.1.right" timestamp="1584660988664">
+    <state width="1877" height="353" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1584883441179" />
+    <state width="1877" height="353" key="GridCell.Tab.1.right" timestamp="1584883441179">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="353" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1584660988664" />
+    <state width="1877" height="353" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1584883441179" />
     <state x="970" y="178" key="Maven.ArtifactSearchDialog" timestamp="1584514099566">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -196,40 +218,30 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1584660966773" />
-    <state x="656" y="344" key="com.intellij.ide.util.TipDialog" timestamp="1584708027267">
+    <state x="656" y="344" key="com.intellij.ide.util.TipDialog" timestamp="1584874226038">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="656" y="344" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1584708027267" />
-    <state x="953" y="0" width="974" height="1047" key="dock-window-1" timestamp="1584708062867">
+    <state x="656" y="344" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1584874226038" />
+    <state x="886" y="183" width="930" height="574" key="dock-window-1" timestamp="1584886773257">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="953" y="0" width="974" height="1047" key="dock-window-1/0.0.1920.1040@0.0.1920.1040" timestamp="1584708062867" />
-    <state x="616" y="240" key="run.anything.popup" timestamp="1584524644145">
+    <state x="886" y="183" width="930" height="574" key="dock-window-1/0.0.1920.1040@0.0.1920.1040" timestamp="1584886773257" />
+    <state x="616" y="240" key="run.anything.popup" timestamp="1584878058152">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="616" y="240" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1584524644145" />
-    <state x="1103" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1584518721017">
+    <state x="616" y="240" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1584878058152" />
+    <state x="1103" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1584879357263">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="1103" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1584518721017" />
+    <state x="1103" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1584879357263" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/util/asserts/Assert.java</url>
-          <line>36</line>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/util/asserts/Assert.java</url>
-          <line>54</line>
-          <option name="timeStamp" value="3" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/tests/subtest/SubTest1.java</url>
-          <line>24</line>
-          <option name="timeStamp" value="4" />
+          <url>file://$PROJECT_DIR$/src/main/java/util/reflection/ReflectionHelper.java</url>
+          <line>97</line>
+          <option name="timeStamp" value="6" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

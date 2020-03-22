@@ -1,55 +1,37 @@
 package tests.subtest;
 
-import util.marker.IgnoreTestException;
-import util.annotation.After;
-import util.annotation.Before;
+import util.annotation.PrintTestResult;
+import util.annotation.StatisticsTestLevel;
 import util.annotation.Test;
+import util.marker.IgnoreTestException;
+
+import java.util.Date;
 
 import static util.asserts.Assert.ownAssert;
 
 public class SubTest1 implements IgnoreTestException {
-    @Before
-    public void testOneBefore(){
-        System.out.println("FirstBefore");
-    }
 
-    @Before
-    public void testTwoBefore(){
-        System.out.println("SecondBefore");
-    }
-
-    @Test
-    public void firstTest(){
-        System.out.println("firstTest");
-
-        ownAssert(10).isEquals(11);
-        ownAssert(11).isEquals(11);
-
+    @Test(statisticsTestLevel = StatisticsTestLevel.SHOW_NAME_RESULT, printTestResult = PrintTestResult.AFTER_METHOD)
+    public void firstTest() {
+        ownAssert(false).isTrue();
         ownAssert().isNotNull();
-        ownAssert(null).isNotNull();
-        ownAssert("String").isNotNull();
-
-        int a=10;
-        int b=10;
-
-        ownAssert(a==b).isTrue();
-        ownAssert("AAA".equals("AAA")).isTrue();
-        ownAssert("AAA".equals("AAB")).isTrue();
+        System.out.println("firstTest: SHOW_NAME_RESULT");
     }
 
-    @Test
-    public void secondTest(){
-        System.out.println("SecondTest");
+    @Test(statisticsTestLevel = StatisticsTestLevel.ONLY_COUNTS)
+    public void secondTest() {
+        ownAssert("testString").isEquals(new Date());
+        ownAssert(10).isEquals(10);
+        System.out.println("secondTest: ONLY_COUNTS");
     }
 
-    @After
-    public  void testFirstAAfter(){
-        System.out.println("FirstAfter");
+
+    @Test(statisticsTestLevel = StatisticsTestLevel.NONE)
+    public void thirdTest() {
+        ownAssert(new Date()).isNotNull();
+        ownAssert(true).isTrue();
+        ownAssert(5).isEquals(5);
+        System.out.println("thirdTest:  NONE");
     }
 
-    @After
-    public  void testSecondAAfter(){
-        System.out.println("SecondAfter");
-
-    }
 }
